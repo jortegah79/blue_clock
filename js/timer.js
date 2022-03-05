@@ -103,3 +103,4 @@ $("#start_stop").on("click", playStop);
 $(document).ready(() => {
    reiniciar();
 });
+
