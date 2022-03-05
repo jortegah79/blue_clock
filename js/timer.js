@@ -9,8 +9,6 @@ let actividad = true;
 let textoTipoSesion;
 let minutos;
 let segundos;
-
-
 //FUNCIONES------------------------------------------_>
 function incrementa(e) {
    if (e.target.id === 'break-increment') {
@@ -40,8 +38,7 @@ function reiniciar() {
    $("#session-length").text(MINUTOS_SESSION);
    $("#time-left").text(`${MINUTOS_SESSION}:0${SEGUNDOS}`);
    minutos = MINUTOS_SESSION;
-   segundos = SEGUNDOS;
-
+   segundos = SEGUNDOS;   
    textoTipoSesion = "Tiempo de sesión";
    $("#timer-label").text("Tiempo de sesión");
    detenido = true;
